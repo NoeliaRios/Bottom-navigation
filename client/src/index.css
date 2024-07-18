@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@layer base {
+  html {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f5f5f5;
+  }
+}
+
+.rubik-uniquifier {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.icon-inner {
+  color: "#696db0";
+}
+.circle {
+  background-color: white;
+  color: #696db0;
+}
+
+.shadow-myShadow2 {
+  --tw-shadow: -4.1px -5px 0 0 #f5f5f5;
+  --tw-shadow-colored: -4.1px -5px 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-myShadow1 {
+  --tw-shadow: 4.1px -5px 0 0 #f5f5f5;
+  --tw-shadow-colored: 4.1px -5px 0 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* .bottomNav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
